@@ -42,16 +42,6 @@ export default function Header() {
               <Button icon="settings">Setting</Button>
             </Link>
           </li>
-          <li>
-            <Menu menuButton={renderMenuButton}>
-              <MenuItem src={GoogleLogo} onClick={loginWithGoogle}>
-                Login with Google
-              </MenuItem>
-              <Link to="/login">
-                <MenuItem src={EmailLogo}>Login with Email</MenuItem>
-              </Link>
-            </Menu>
-          </li>
         </ul>
       </div>
     </header>
