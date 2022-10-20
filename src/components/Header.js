@@ -33,11 +33,6 @@ export default function Header() {
         <Logo />
         <ul className={classes.nav}>
           <li>
-            <Link to="/report">
-              <Button icon="insert_chart_outlined">Report</Button>
-            </Link>
-          </li>
-          <li>
             <Link to="/settings">
               <Button icon="settings">Setting</Button>
             </Link>
