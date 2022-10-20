@@ -18,14 +18,8 @@ function Main() {
             <App />
           </Route>
         </Switch>
-        <Route path="/login">
-          <EmailLogin />
-        </Route>
         <Route path="/settings">
           <Settings />
-        </Route>
-        <Route path="/report">
-          <Report />
         </Route>
       </Router>
     </Provider>
